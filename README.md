@@ -96,11 +96,3 @@ The response includes a submission ID. Check its result at `GET /submissions/{id
 - Add integration tests, CI, a threat model, and a demo video
 - Replace Docker-socket execution with a dedicated, reviewed runner isolation boundary
 
-## Resume bullets
-
-Use only claims that match what you have implemented and measured:
-
-- Built a multi-language online judge for Python, JavaScript, Java, and C++ using FastAPI, Redis, PostgreSQL, and Docker.
-- Ran submissions in disposable containers with network isolation and CPU, memory, process, and wall-time limits.
-
-Add performance numbers only after running a documented load test. Keep the security limitations visible, and do not present this local prototype as a production sandbox.
