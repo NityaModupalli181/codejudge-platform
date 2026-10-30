@@ -4,6 +4,10 @@ A local portfolio prototype for online code execution and evaluation. FastAPI ac
 
 > **Security scope:** This is a local portfolio prototype, not a public service for arbitrary users. The worker has access to the Docker socket, which gives it substantial control over the host. The demo does not include authentication, per-user quotas, production rate limiting, or a hardened multi-tenant execution boundary. Keep it on your own machine. A real service needs a separately reviewed isolation boundary, such as dedicated disposable VMs or a runner cluster.
 
+## Dashboard
+
+![CodeJudge dashboard](docs/dashboard.png)
+
 ## Architecture
 
 ```text
